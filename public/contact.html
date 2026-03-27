@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Swaranjali Motors</title>
+  <meta name="description" content="Get in touch with Swaranjali Motors for buying, selling vehicles, loan assistance, and more. Call us at +91 95884 45578.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo">
+      <img src="./images/logo.jpeg" alt="Swaranjali Motors Logo" class="logo-img">
+      <div class="logo-text">Swaranjali <span>Motors</span></div>
+      </a>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="vehicles.html" class="nav-link">Vehicles</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+          <!-- Language Dropdown -->
+    <li class="language-item">
+      <select id="languageSelect">
+  <option value="">Select Language</option>
+  <option value="en">English</option>
+  <option value="hi">हिंदी</option>
+  <option value="mr">मराठी</option>
+</select>
+    </li>
+        </ul>
+        <a href="tel:+919588445578" class="btn btn-primary">Call Now</a>
+        <button class="mobile-menu-btn" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Contact <span class="text-primary">Us</span></h1>
+      <p>Have questions? We're here to help. Reach out to us through any of the channels below.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Visit Us</h4>
+              <p>Sangli-Kolhapur Road,<br>Near Devgiri Petrol Pump,<br>Sangli, Maharashtra 416416</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h4>Call Us</h4>
+              <p><a href="tel:+919588445578">+91 95884 45578</a></p>
+              <p><a href="tel:+919665517182">+91 96655 17182</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <h4>Email Us</h4>
+              <p><a href="anyabandgar458@gmail.com">anyabandgar458@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Monday - Saturday: 9:00 AM - 8:00 PM</p>
+              <p>Sunday: 10:00 AM - 6:00 PM</p>
+            </div>
+          </div>
+
+         
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+         
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="Your email address">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" required>
+                <option value="">Select a subject</option>
+                <option value="buy">I want to buy a vehicle</option>
+                <option value="sell">I want to sell my vehicle</option>
+                <option value="loan">Vehicle loan enquiry</option>
+                <option value="insurance">Insurance enquiry</option>
+                <option value="other">Other enquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us more about your requirement..." rows="5"></textarea>
+            </div>
+            <a href="#" id="whatsappBtn" class="btn btn-primary" style="width: 100%; margin-top: 16px;">
+  Chat on WhatsApp
+</a>
+          </form>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3726.236255348206!2d74.30097007913751!3d16.738809080041076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDQ0JzE5LjciTiA3NMKwMTgnMjEuMCJF!5e1!3m2!1smr!2sin!4v1774459340227!5m2!1smr!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="container">
+      <h2>Need Immediate Assistance?</h2>
+      <p>Our team is ready to help you with any queries. Give us a call!</p>
+      <a href="tel:+919588445578" class="btn btn-accent">Call Now: +91 95884 45578</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <img src="./images/logo.jpeg" alt="Swaranjali Motors Logo" class="logo-img">
+      <div class="logo-text">Swaranjali <span>Motors</span></div>
+          </div>
+          <p>Your trusted partner for quality second-hand commercial vehicles in Sangli. Buy, sell, and finance with confidence.</p>
+          <div class="footer-social">
+  
+  <a href="https://www.instagram.com/swaranjali_motors?igsh=MTYzZ3JjdzhqeWoyag==" class="social-link" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="https://wa.me/919588445578" class="social-link" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+</div>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vehicles.html">Vehicles</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="vehicles.html">Buy Vehicles</a></li>
+            <li><a href="contact.html">Sell Vehicles</a></li>
+            <li><a href="contact.html">Loan Assistance</a></li>
+            <li><a href="contact.html">Insurance</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+919588445578">+91 95884 45578</a></li>
+            <li><a href="tel:+919665517182">+91 96655 17182</a></li>
+            <li><a href="mailto:anyabandgar458@gmail.com">anyabandgar458@gmail.com</a></li>
+            <li>Sangali-Kolhapur Road,
+              Devgiri Petroleum,
+              Near Halondi</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; Swaranjali Motors. All rights reserved.</p>
+        <p>Designed with care for our customers</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/919588445578?text=Hi, I'm interested in your vehicles" class="whatsapp-btn" aria-label="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+  <!-- Your filter script ABOVE -->
+
+<!-- Google Translate BELOW -->
+<div id="google_translate_element" style="display:none;"></div>
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,hi,mr'
+  }, 'google_translate_element');
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const select = document.getElementById("languageSelect");
+
+  if (select) {
+    select.addEventListener("change", function () {
+      const lang = this.value;
+
+      const interval = setInterval(() => {
+        const combo = document.querySelector(".goog-te-combo");
+        if (combo) {
+          combo.value = lang;
+          combo.dispatchEvent(new Event("change"));
+          clearInterval(interval);
+        }
+      }, 500);
+    });
+  }
+});
+</script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>
+document.getElementById("whatsappBtn").addEventListener("click", function(e) {
+  e.preventDefault();
+
+  // Get form values
+  let name = document.getElementById("name").value;
+  let phone = document.getElementById("phone").value;
+  let email = document.getElementById("email").value;
+  let subject = document.getElementById("subject").value;
+  let message = document.getElementById("message").value;
+
+  // Validation (optional but useful)
+  if(name === "" || phone === "" || subject === "") {
+    alert("Please fill all required fields!");
+    return;
+  }
+
+  // Create WhatsApp message
+  let whatsappMessage = `Hello, I have an enquiry:
+
+Name: ${name}
+Phone: ${phone}
+Email: ${email}
+Subject: ${subject}
+Message: ${message}`;
+
+  // Encode message for URL
+  let encodedMessage = encodeURIComponent(whatsappMessage);
+
+  // WhatsApp number
+  let whatsappNumber = "919588445578";
+
+  // Redirect to WhatsApp
+  let url = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+  window.open(url, "_blank");
+});
+</script>
+<script>
+const menuBtn = document.querySelector(".mobile-menu-btn");
+const navLinks = document.querySelector(".nav-links");
+
+menuBtn.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+</script>
+</body>
+</html>
